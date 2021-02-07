@@ -1,0 +1,73 @@
+section {
+    min-height: 650px;
+}
+
+.container {
+    padding: 80px 0px;
+}
+
+.search-area {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.search-area input {
+    padding: 10px 100px;
+    border-radius: 3px;
+    border: none;
+}
+
+#meals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.meal {
+    width: 90%;
+    background-color: rgba(248, 245, 245, 0.548);
+    border-radius: 10px;
+}
+
+.meal img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.meal h3,
+#mealDetails h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#mealDetails {
+    width: 40%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#mealDetails img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+#mealDetails h6 {
+    padding: 0 0 5px 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#mealDetails ul {
+    padding-bottom: 20px;
+}
+
+#mealDetails ul li {
+    margin: 5px 18px;
+}
